@@ -1,26 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
-
-
-p, h1, h2, h3, h4, h5{
+p, h1, h2, h3, h4, h5,label{
     font-family: 'Roboto', sans-serif;
 }
-
-
 *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
-
 body{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
-
-form{
+div{
     width: 350px;
     height: 550px;
     background-color: rgb(255, 255, 255);
@@ -32,14 +25,12 @@ form{
     flex-direction: column;
     position: relative;
 }
-
 .textarea{
     width: 300px;
     height: 40px;
     border: 2px solid rgb(45, 54, 85);
     border-radius: 5px;
 }
-
 .ContactInformation{
     display: flex;
     flex-direction: column;
@@ -47,7 +38,6 @@ form{
     position: absolute;
     bottom: 30px;
 }
-
 .PersonalInformation{
     display: flex;
     flex-direction: column;
@@ -55,4 +45,3 @@ form{
     position: absolute;
     top: 30px;
 }
-
